@@ -29,6 +29,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.ejemplo2composeidgs901.ui.theme.Ejemplo2ComposeIDGS901Theme
+import com.example.ejemplo2composeidgs901.ui.theme.SumaDosNumeros
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,6 +37,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             SumaDosNumeros()
+
             /*
             val navController = rememberNavController()
             NavHost(navController = navController, startDestination = "inicio") {
@@ -111,8 +113,6 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
-
-
 
 
 
